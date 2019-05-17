@@ -9,7 +9,7 @@
 #doc h5::before,
 #doc h6::before {
   display: block;
-  content: " ";
+  content: none;
   height: 160px;
   margin-top: -160px;
   visibility: hidden;
@@ -45,4 +45,8 @@
 
 .toc-link:hover::before {
   background-color: #ccc;
+}
+
+.enablement h4::before {
+  content: none;
 }
