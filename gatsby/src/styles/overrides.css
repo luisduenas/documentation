@@ -46,7 +46,3 @@
 .toc-link:hover::before {
   background-color: #ccc;
 }
-
-.enablement h4::before {
-  content: none;
-}
