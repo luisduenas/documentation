@@ -106,7 +106,6 @@ class TerminusTemplate extends React.Component {
 
   render() {
     const node = this.props.data.mdx
-    // const showToc = node.frontmatter.showToc
     const contentCols = node.frontmatter.showToc ? 9 : 12
 
     return (
