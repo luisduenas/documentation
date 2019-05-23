@@ -1,17 +1,5 @@
 import React from "react"
-// import RehypeReact from "rehype-react"
 import { StaticQuery, graphql } from "gatsby"
-
-import { headline1, headline2, headline3 } from "./releaseHeadlines"
-
-// const renderAst = new RehypeReact({
-//   createElement: React.createElement,
-//   components: {
-//     h1: headline1,
-//     h2: headline2,
-//     h3: headline3,
-//   },
-// }).Compiler
 
 const Commands = ({ data }) => (
   <div class="container col-md-12">
