@@ -18,7 +18,7 @@ If you would like additional information for a given command (e.g., available `-
 
 </Alert>
 
-> Command table
+<Commands />
 
 <!-- <div class="container col-md-12" ng-app="terminusCommandsApp" ng-controller="mainController">
 
