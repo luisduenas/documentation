@@ -89,14 +89,11 @@ If you need help with this step, please reference the [WordPress Codex](https://
 
     </Accordion>
 
-    <div class="alert alert-danger" role="alert">
-      <h4 class="info">Warning</h4>
-      <p>
-        As intended, the following action will overwrite your Test database and
-        files. If you skipped this backup task you will be unable to recover
-        this data hereafter.
-      </p>
-    </div>
+    <Alert title={"Warning"} type={"danger"}>
+      As intended, the following action will overwrite your Test database and
+      files. If you skipped this backup task you will be unable to recover this
+      data hereafter.
+    </Alert>
 
 10. Add a Deploy Log Message (optional), then click **Deploy Code from Development to Test Environment**.
 
